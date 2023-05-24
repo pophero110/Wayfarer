@@ -10,6 +10,7 @@
   --text-dropshadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   --primary-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Open sans", sans-serif;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 * {
