@@ -1,6 +1,11 @@
 :root {
     /* default rem size, e.g., 1rem = 10px */
     font-size: 10px;
+    --primary-color: #1CE3B9;
+    --secondary-color:  #FFFFFF;
+    --lighter-secondary-color: #D2F9F1;
+    --accent-color: #B91CE3;
+    --text-dropshadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   }
   
   * {
