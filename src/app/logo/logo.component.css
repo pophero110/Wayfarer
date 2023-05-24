@@ -1,7 +1,16 @@
-.logo::first-letter{
-    color: purple;
-
-}
 .logo{
     font-family: var(--secondary-font-family) ;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -1px -1px 0 var(--accent-color), 1px -1px 0 var(--accent-color), -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color);
+   
 }
+.logo::first-letter{
+font-weight: 800;
+font-size: 64px;
+line-height: 87px;
+color: var(--accent-color);
+text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+
