@@ -13,19 +13,19 @@ export class GalleryComponent {
 
   /**
    * Handles the click event on the left arrow button to navigate to the previous image.
-   * If the current image is the first one, no action is taken.
+   * If the current image is the first one, show the last image
    */
   handleLeftArrowClick() {
-    if (this.imageIndex === 0) return;
+    if (this.imageIndex === 0) this.imageIndex = this.imageCount;
     this.imageIndex--;
   }
 
   /**
    * Handles the click event on the right arrow button to navigate to the next image.
-   * If the current image is the last one, no action is taken.
+   * If the current image is the last one, first the image.
    */
   handleRightArrowClick() {
-    if (this.imageIndex === this.imageCount) return;
+    if (this.imageIndex === this.imageCount) this.imageIndex = 0;
     this.imageIndex++;
   }
 }
