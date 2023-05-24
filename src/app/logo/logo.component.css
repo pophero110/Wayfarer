@@ -1,0 +1,7 @@
+.logo::first-letter{
+    color: purple;
+
+}
+.logo{
+    font-family: var(--secondary-font-family) ;
+}

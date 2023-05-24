@@ -8,6 +8,8 @@
     --lighter-secondary-color: #D2F9F1;
     --accent-color: #B91CE3;
     --text-dropshadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Open sans', sans-serif;
   }
   
   * {
@@ -21,6 +23,8 @@
     width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    font-family: var(--primary-font-family);
+
   }
   
   a {
