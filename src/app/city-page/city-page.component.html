@@ -1,0 +1,9 @@
+<h2>{{cityName}}</h2>
+<img src="{{cityImage}}" alt="{{cityName}}" Image>
+
+<h3>Posts</h3>
+<ul>
+    <li *ngFor="let post of posts ">
+        <a routerLink="/posts/{{post.Id}}">{{post.title}}</a>
+    </li>
+</ul>

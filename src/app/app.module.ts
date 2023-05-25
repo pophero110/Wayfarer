@@ -6,6 +6,7 @@ import { LogoComponent } from './logo/logo.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { TopicsComponent } from './topics/topics.component';
 import { CalloutComponent } from './callout/callout.component';
+import { CityPageComponent } from './city-page/city-page.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CalloutComponent } from './callout/callout.component';
     LogoComponent,
     GalleryComponent,
     TopicsComponent,
-    CalloutComponent
+    CalloutComponent,
+    CityPageComponent
   ],
   imports: [
     BrowserModule
