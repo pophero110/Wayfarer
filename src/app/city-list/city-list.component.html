@@ -1,0 +1,14 @@
+<div class="citiesList">
+  <h3>Cities</h3>
+  <ul>
+    <li class="citiesList__item" *ngFor="let city of cities">
+      <img
+        width="100px"
+        height="100px"
+        src="{{ city.iconUrl }}"
+        alt="it's an image"
+      />
+      <h3>{{ city.name }}</h3>
+    </li>
+  </ul>
+</div>
