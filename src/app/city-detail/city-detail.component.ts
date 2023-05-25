@@ -1,34 +1,18 @@
-import { Component, Input } from '@angular/core';
-
-// represent post object
-interface Post {
-  title: string;
-  summary: string;
-  thumbnailUrl: string;
-}
-
+import { Component, Input, OnInit } from '@angular/core';
+import { Post, posts } from '../data/posts';
+import { City, cities } from '../data/cities';
 @Component({
   selector: 'app-city-detail',
   templateUrl: './city-detail.component.html',
   styleUrls: ['./city-detail.component.css'],
 })
-export class CityDetailComponent {
+export class CityDetailComponent implements OnInit {
   @Input() cityId?: string;
-  posts: Post[] = [
-    {
-      title: 'title',
-      summary: 'summary',
-      thumbnailUrl: '../../assets/images/1.jpeg',
-    },
-    {
-      title: 'title',
-      summary: 'summary',
-      thumbnailUrl: '../../assets/images/1.jpeg',
-    },
-    {
-      title: 'title',
-      summary: 'summary',
-      thumbnailUrl: '../../assets/images/1.jpeg',
-    },
-  ];
+  posts?: Post[];
+  cities: City[] = cities;
+  city?: City;
+  ngOnInit(): void {
+    this.city = this.cities.find((city) => city.id === this.cityId);
+    this.posts = posts.filter((post) => post.cityId === this.cityId);
+  }
 }

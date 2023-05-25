@@ -1,11 +1,5 @@
 import { Component, Input } from '@angular/core';
-
-// represent the city object
-interface City {
-  iconUrl: string;
-  name: string;
-}
-
+import { City, cities } from '../data/cities';
 @Component({
   selector: 'app-city-list',
   templateUrl: './city-list.component.html',
@@ -13,10 +7,5 @@ interface City {
 })
 export class CityListComponent {
   @Input() cityId?: string;
-  cities: City[] = [
-    { name: 'London', iconUrl: '../../assets/images/1.jpeg' },
-    { name: 'Sydney', iconUrl: '../../assets/images/2.webp' },
-    { name: 'San Francisco', iconUrl: '../../assets/images/3.jpeg' },
-    { name: 'Seattle', iconUrl: '../../assets/images/4.jpeg' },
-  ];
+  cities: City[] = cities;
 }

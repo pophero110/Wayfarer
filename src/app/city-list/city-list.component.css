@@ -1,3 +1,7 @@
 .citiesList__item {
   display: flex;
 }
+
+.highlight {
+  background-color: red;
+}

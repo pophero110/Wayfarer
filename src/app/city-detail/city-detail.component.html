@@ -1,13 +1,13 @@
 <div class="cityDetail">
   <div class="cityDetail__overview">
     <div class="cityDetail__overview__heading">
-      <h3>cityname</h3>
-      <h4>country</h4>
+      <h3>{{ city?.name }}</h3>
+      <h4>{{ city?.country }}</h4>
     </div>
     <img
       width="200px"
       height="100px"
-      src="../../assets/images/1.jpeg"
+      src="{{ city?.iconUrl }}"
       alt="city image"
     />
   </div>
