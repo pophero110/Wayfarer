@@ -12,6 +12,7 @@ import { RoutingModule } from './routing/routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CityListComponent } from './city-list/city-list.component';
 import { CityDetailComponent } from './city-detail/city-detail.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CityDetailComponent } from './city-detail/city-detail.component';
     CityPageComponent,
     CityListComponent,
     CityDetailComponent,
+    PageNotFoundComponent,
   ],
   imports: [BrowserModule, RoutingModule],
   providers: [],
