@@ -7,6 +7,9 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { TopicsComponent } from './topics/topics.component';
 import { CalloutComponent } from './callout/callout.component';
 import { CityPageComponent } from './city-page/city-page.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { RoutingModule } from './routing/routing.module';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +18,12 @@ import { CityPageComponent } from './city-page/city-page.component';
     GalleryComponent,
     TopicsComponent,
     CalloutComponent,
-    CityPageComponent
+    LandingPageComponent,
+    NavbarComponent,
+    CityPageComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, RoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
