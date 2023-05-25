@@ -9,7 +9,7 @@ import { PageNotFoundComponent } from '../page-not-found/page-not-found.componen
 const routes: Routes = [
   { path: 'cities/:id', component: CityPageComponent },
   { path: '404', component: PageNotFoundComponent },
-  { path: '', component: LandingPageComponent },
+  { path: '**', component: LandingPageComponent },
 ];
 
 @NgModule({

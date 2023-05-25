@@ -1,18 +1,19 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Post, posts } from '../data/posts';
-import { City, cities } from '../data/cities';
+import { Post } from '../data/posts';
+import { City } from '../data/cities';
+import { CityService } from '../services/city.service';
 @Component({
   selector: 'app-city-detail',
   templateUrl: './city-detail.component.html',
   styleUrls: ['./city-detail.component.css'],
 })
 export class CityDetailComponent implements OnInit {
-  @Input() cityId?: string;
-  posts?: Post[];
-  cities: City[] = cities;
+  @Input() cityId!: string;
+  posts!: Post[];
   city?: City;
+  constructor(private cityService: CityService) {}
   ngOnInit(): void {
-    this.city = this.cities.find((city) => city.id === this.cityId);
-    this.posts = posts.filter((post) => post.cityId === this.cityId);
+    this.city = this.cityService.findCity(this.cityId);
+    this.posts = this.cityService.findPostsByCityId(this.cityId);
   }
 }
