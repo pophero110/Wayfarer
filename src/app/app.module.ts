@@ -6,6 +6,9 @@ import { LogoComponent } from './logo/logo.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { TopicsComponent } from './topics/topics.component';
 import { CalloutComponent } from './callout/callout.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { RoutingModule } from './routing/routing.module';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -13,12 +16,12 @@ import { CalloutComponent } from './callout/callout.component';
     LogoComponent,
     GalleryComponent,
     TopicsComponent,
-    CalloutComponent
+    CalloutComponent,
+    LandingPageComponent,
+    NavbarComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, RoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
