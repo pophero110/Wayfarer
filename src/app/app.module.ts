@@ -10,6 +10,8 @@ import { CityPageComponent } from './city-page/city-page.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { RoutingModule } from './routing/routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CityListComponent } from './city-list/city-list.component';
+import { CityDetailComponent } from './city-detail/city-detail.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     LandingPageComponent,
     NavbarComponent,
     CityPageComponent,
+    CityListComponent,
+    CityDetailComponent,
   ],
   imports: [BrowserModule, RoutingModule],
   providers: [],
