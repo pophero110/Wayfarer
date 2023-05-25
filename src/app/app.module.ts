@@ -8,6 +8,7 @@ import { TopicsComponent } from './topics/topics.component';
 import { CalloutComponent } from './callout/callout.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { RoutingModule } from './routing/routing.module';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { RoutingModule } from './routing/routing.module';
     TopicsComponent,
     CalloutComponent,
     LandingPageComponent,
+    NavbarComponent,
   ],
   imports: [BrowserModule, RoutingModule],
   providers: [],
