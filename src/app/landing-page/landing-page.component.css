@@ -2,8 +2,7 @@
   height: 90vh;
   width: 100%;
 }
-.topics-container {
-  display: flex;
-  justify-content: center;
-  padding: 0 4vw;
+
+.card-text {
+  font-size: 1vw;
 }
