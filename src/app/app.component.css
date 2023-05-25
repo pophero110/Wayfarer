@@ -1,0 +1,11 @@
+.heroSection {
+  height: 100vh;
+  width: 100%;
+}
+.topics-container{
+  display: flex;
+  justify-content: center;
+  font-size: 6.5px;
+ 
+
+}

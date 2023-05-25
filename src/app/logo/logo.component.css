@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -1px -1px 0 var(--accent-color), 1px -1px 0 var(--accent-color),
+    -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color);
+  font-size: 4.8rem;
+  margin-left: 2vw;
+  font-weight: 800;
+}
+
+.logo span {
+  font-size: 6.4rem;
+  line-height: 87px;
+  color: var(--accent-color);
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
