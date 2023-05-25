@@ -13,6 +13,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CityListComponent } from './city-list/city-list.component';
 import { CityDetailComponent } from './city-detail/city-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { SearchQueryDirective } from './search-query.directive';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     CityListComponent,
     CityDetailComponent,
     PageNotFoundComponent,
+    SearchBarComponent,
+    SearchQueryDirective,
   ],
   imports: [BrowserModule, RoutingModule],
   providers: [],
