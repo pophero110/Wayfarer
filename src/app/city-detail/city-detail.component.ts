@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 // represent post object
 interface Post {
@@ -13,6 +13,7 @@ interface Post {
   styleUrls: ['./city-detail.component.css'],
 })
 export class CityDetailComponent {
+  @Input() cityId?: string;
   posts: Post[] = [
     {
       title: 'title',

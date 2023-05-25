@@ -6,7 +6,7 @@ import { CityPageComponent } from '../city-page/city-page.component';
 // https://angular.io/guide/router#displaying-a-404-page
 // Documentation for using router
 const routes: Routes = [
-  { path: 'cities', component: CityPageComponent },
+  { path: 'cities/:id', component: CityPageComponent },
   { path: '**', component: LandingPageComponent },
 ];
 

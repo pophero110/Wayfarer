@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 // represent the city object
 interface City {
@@ -12,6 +12,7 @@ interface City {
   styleUrls: ['./city-list.component.css'],
 })
 export class CityListComponent {
+  @Input() cityId?: string;
   cities: City[] = [
     { name: 'London', iconUrl: '../../assets/images/1.jpeg' },
     { name: 'Sydney', iconUrl: '../../assets/images/2.webp' },
