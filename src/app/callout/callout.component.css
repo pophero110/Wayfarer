@@ -1,0 +1,18 @@
+.callout__brand{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.callout__colored{
+    color: var(--accent-color);
+    /* font-weight: bold; */
+
+}
+.callout{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: light;
+    text-shadow:  -1px 0 var(--accent-color), -1.1px 0 var(--accent-color);
+}
+
