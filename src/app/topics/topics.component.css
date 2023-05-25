@@ -1,14 +1,15 @@
-.topics{
-    text-transform: uppercase;
+.card {
+  background-color: transparent;
+  box-shadow: none;
+  color: white;
+  padding: 0 2.4rem;
 }
-.card{
-    background-color: transparent;
-    box-shadow: none;
-    color: white;
-    padding: 0 3rem;
+.card-title {
+  font-size: 2vw;
+  white-space: nowrap;
+  font-weight: bold;
+  text-shadow: var(--text-dropshadow);
 }
-.card-title{
-    font-size: 2rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.card-content {
+  font-size: 1vw;
 }
