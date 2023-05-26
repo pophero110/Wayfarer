@@ -8,7 +8,7 @@ import { Post, posts } from '../data/posts';
 export class CityService {
   constructor() {}
 
-  findCity(cityId: string): City | undefined {
+  findCityById(cityId: string): City | undefined {
     return cities.find((city) => city.id === cityId);
   }
 

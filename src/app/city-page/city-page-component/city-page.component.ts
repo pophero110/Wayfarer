@@ -10,15 +10,15 @@ export class CityPageComponent implements OnInit {
   cityId: any;
   constructor(
     private route: ActivatedRoute,
-    private cityService: CityService,
-    private router: Router
+    private router: Router,
+    private cityService: CityService
   ) {}
 
   ngOnInit() {
     this.route.paramMap.subscribe((params) => {
       const id = params.get('id');
       if (id !== null) {
-        if (this.cityService.findCity(id)) {
+        if (this.cityService.findCityById(id)) {
           this.cityId = id;
         } else {
           this.router.navigate(['/404']);
