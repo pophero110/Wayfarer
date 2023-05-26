@@ -36,6 +36,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 .defaultHover:hover {
   background-color: var(--lighter-secondary-color);
   cursor: pointer;
