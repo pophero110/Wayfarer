@@ -44,7 +44,6 @@ Sprint 4: Weather API
 
 # Wireframes
 ![image](https://github.com/pophero110/Wayfarer---Group-Project/assets/124539081/712dd0bd-7934-4ecb-9666-a089650b4281)
-![image](https://github.com/pophero110/Wayfarer---Group-Project/assets/124539081/59b44ead-4b75-4de4-960b-221ca4f63a02)
 
 ## Development server
 
