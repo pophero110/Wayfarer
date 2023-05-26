@@ -13,7 +13,7 @@ export class CityDetailComponent implements OnInit {
   city?: City;
   constructor(private cityService: CityService) {}
   ngOnInit(): void {
-    this.city = this.cityService.findCity(this.cityId);
+    this.city = this.cityService.findCityById(this.cityId);
     this.posts = this.cityService.findPostsByCityId(this.cityId);
   }
 }

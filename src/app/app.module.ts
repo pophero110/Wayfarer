@@ -8,6 +8,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { SearchQueryDirective } from './directives/search-query.directive';
 import { LandingPageModule } from './landing-page/landing-page.module';
 import { CityPageModule } from './city-page/city-page.module';
+import { PostShowPageComponent } from './post-show-page/post-show-page.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CityPageModule } from './city-page/city-page.module';
     NavbarComponent,
     PageNotFoundComponent,
     SearchQueryDirective,
+    PostShowPageComponent,
   ],
   imports: [BrowserModule, RoutingModule, LandingPageModule, CityPageModule],
   providers: [],
