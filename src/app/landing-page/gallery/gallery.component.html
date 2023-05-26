@@ -1,4 +1,22 @@
-<div class="gallery-container">
+<div class="gallery-container shadow-lg">
+  <img
+    class="rounded"
+    [ngClass]="{ showImage: imageIndex === 0 }"
+    src="../../assets/images/1.jpeg"
+    alt="#"
+  />
+  <img
+    class="rounded"
+    [ngClass]="{ showImage: imageIndex === 1 }"
+    src="../../assets/images/2.webp"
+    alt="#"
+  />
+  <img
+    class="rounded"
+    [ngClass]="{ showImage: imageIndex === 2 }"
+    src="../../assets/images/3.jpeg"
+    alt="#"
+  />
   <div class="gallery__arrow" (click)="handleLeftArrowClick()">
     <svg
       width="48"
@@ -30,19 +48,4 @@
       />
     </svg>
   </div>
-  <img
-    [ngClass]="{ showImage: imageIndex === 0 }"
-    src="../../assets/images/1.jpeg"
-    alt="#"
-  />
-  <img
-    [ngClass]="{ showImage: imageIndex === 1 }"
-    src="../../assets/images/2.webp"
-    alt="#"
-  />
-  <img
-    [ngClass]="{ showImage: imageIndex === 2 }"
-    src="../../assets/images/3.jpeg"
-    alt="#"
-  />
 </div>
