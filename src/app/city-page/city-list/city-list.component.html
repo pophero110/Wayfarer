@@ -1,18 +1,33 @@
-<div class="citiesList">
-  <h3>Cities</h3>
-  <ul>
-    <li
-      class="citiesList__item"
+<div
+  class="d-flex shadow-lg flex-column bg-light p-3 rounded-start"
+  style="height: 100%"
+>
+  <h3
+    style="background-color: var(--primary-color)"
+    class="text-uppercase text-white rounded p-2 fs-1 fw-bold text-center"
+  >
+    City
+  </h3>
+  <div
+    class="d-flex flex-column pe-2 ps-2 justify-content-between overflow-y-scroll"
+  >
+    <div
+      class="border border-white rounded mb-2 p-2 defaultHover"
       *ngFor="let city of cities"
       [ngClass]="{ highlight: cityId === city.id }"
     >
-      <img
-        width="100px"
-        height="100px"
-        src="{{ city.iconUrl }}"
-        alt="it's an image"
-      />
-      <h3>{{ city.name }}</h3>
-    </li>
-  </ul>
+      <div class="d-flex align-items-center">
+        <img
+          class="rounded shadow-lg"
+          width="150px"
+          height="100px"
+          src="{{ city.iconUrl }}"
+          alt="it's an image"
+        />
+        <h3 class="text-center w-100 fs-1">
+          {{ city.name }}
+        </h3>
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,7 +1,7 @@
-.citiesList__item {
-  display: flex;
+:host {
+  width: 40%;
 }
 
 .highlight {
-  background-color: red;
+  background-color: var(--lighter-secondary-color);
 }
