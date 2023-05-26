@@ -15,4 +15,11 @@ export class CityService {
   findPostsByCityId(cityId: string): Post[] {
     return posts.filter((post) => post.cityId === cityId);
   }
+
+  // allow user to find city by name
+  findCityByName(name: string): City | undefined {
+    return cities.find(
+      (city) => city.name.toLowerCase() === name.toLowerCase()
+    );
+  }
 }
