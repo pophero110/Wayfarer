@@ -51,7 +51,7 @@ Sprint 4: Weather API
 2. What was easier than you thought? What was more challenging?
    - Sprint 4 was a lot eaiser than expected. The more challeging area was customizing the app. Getting the app exactly how we wanted it. 
 3. What is a lesson you will carry forward to working on your next project?
-  - The lesson we will carry on to the next project is Pseudocode. Write down word for word what needs to be done. The Kanban board always is a great tool to keep the group on the same page. Communcation is key with working in a group project. 
+   - The lesson we will carry on to the next project is Pseudocode. Write down word for word what needs to be done. The Kanban board always is a great tool to keep the group on the same page. Communcation is key with working in a group project. 
 
 
 ## Development server
