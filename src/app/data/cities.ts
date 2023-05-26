@@ -31,4 +31,10 @@ export const cities = [
     iconUrl: '../../assets/images/4.jpeg',
     country: 'United States of America',
   },
+  {
+    id: '4',
+    name: 'Seattle',
+    iconUrl: '../../assets/images/4.jpeg',
+    country: 'United States of America',
+  },
 ];
