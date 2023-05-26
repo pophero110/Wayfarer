@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { City, cities } from '../data/cities';
+import { City, cities } from '../../data/cities';
 @Component({
   selector: 'app-city-list',
   templateUrl: './city-list.component.html',

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { CityService } from '../services/city.service';
+import { CityService } from '../../services/city.service';
 @Component({
   selector: 'app-city-page',
   templateUrl: './city-page.component.html',

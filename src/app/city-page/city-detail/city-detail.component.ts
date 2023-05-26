@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Post } from '../data/posts';
-import { City } from '../data/cities';
-import { CityService } from '../services/city.service';
+import { Post } from '../../data/posts';
+import { City } from '../../data/cities';
+import { CityService } from '../../services/city.service';
 @Component({
   selector: 'app-city-detail',
   templateUrl: './city-detail.component.html',

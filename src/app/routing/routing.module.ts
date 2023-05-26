@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from '../landing-page/landing-page-component/landing-page.component';
-import { CityPageComponent } from '../city-page/city-page.component';
+import { CityPageComponent } from '../city-page/city-page-component/city-page.component';
 import { PageNotFoundComponent } from '../page-not-found/page-not-found.component';
 
 // https://angular.io/guide/router#displaying-a-404-page
