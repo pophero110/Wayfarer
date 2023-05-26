@@ -9,6 +9,7 @@ import { SearchQueryDirective } from './directives/search-query.directive';
 import { LandingPageModule } from './landing-page/landing-page.module';
 import { CityPageModule } from './city-page/city-page.module';
 import { PostShowPageComponent } from './post-show-page/post-show-page.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -18,8 +19,9 @@ import { PostShowPageComponent } from './post-show-page/post-show-page.component
     PageNotFoundComponent,
     SearchQueryDirective,
     PostShowPageComponent,
+
   ],
-  imports: [BrowserModule, RoutingModule, LandingPageModule, CityPageModule],
+  imports: [BrowserModule, RoutingModule, LandingPageModule, CityPageModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
