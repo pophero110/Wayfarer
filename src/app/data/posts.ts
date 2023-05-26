@@ -29,7 +29,7 @@ export const posts: Post[] = [
     id: '3',
     cityId: '3',
     title: 'Third Post',
-    content: 'This is the content of the third post.',
+    content: 'Lorem ipsum dolor sinc ididunt ut labore et dolore magna aliqua.',
     thumbnailUrl: '../../assets/images/3.jpeg',
     author: 'Mike Johnson',
   },

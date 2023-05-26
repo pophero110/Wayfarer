@@ -1,5 +1,16 @@
+.cityDetail{
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 0 20px 8px 0;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 20px;
+
+}
 .cityDetail__post {
   display: flex;
+
 }
 
 .cityDetail__post__content {
@@ -14,4 +25,35 @@
 .cityDetail__overview__heading {
   display: flex;
   flex-direction: column;
+  padding: 20px 15px 0 15px;
+}
+
+.cityDetail__overview img{
+
+padding-top: 12px;
+}
+
+.h3-Posts{
+  margin: 40px 0 20px 15px;
+}
+
+
+.cityDetail__postContainer{
+  border: 1.5px solid black;
+  border-radius: 5px;
+  margin-left: 15px;
+
+
+
+}
+.cityDetail__post img{
+  width: 70px;
+  height: 70px;
+  padding: 5px 0 5px 0;
+
+}
+
+p {
+  padding: 5px 0 0 10px;
+
 }

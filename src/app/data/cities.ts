@@ -23,12 +23,12 @@ export const cities = [
     id: '3',
     name: 'San Francisco',
     iconUrl: '../../assets/images/3.jpeg',
-    country: 'United Stated of America',
+    country: 'United States of America',
   },
   {
     id: '4',
     name: 'Seattle',
     iconUrl: '../../assets/images/4.jpeg',
-    country: 'United Stated of America',
+    country: 'United States of America',
   },
 ];
