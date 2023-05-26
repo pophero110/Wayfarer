@@ -1,6 +1,58 @@
 # Wayfarer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2. A travel community for users to share city-specific tips ("posts" or "logs") about their favorite locations around the world.
+
+# Technologies used 
+- ![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+- ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+- ![BootStrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+- ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+# User Stories 
+
+Sprint 1: Landing Page
+A user should be able to:
+
+1. Navigate to "/" and see a basic splash page with the name of the website.
+2. See the site-wide header on every page with a link to home page with list of cities.
+
+Sprint 2: HomePage
+A user should be able to:
+
+1. View the "San Francisco" page (at "/cities/1") including:
+    - The site-wide header.
+    - The name of the city.
+    - An iconic photo of the city.
+2. View a list of posts on the San Francisco page:
+    - Sorted by newest first.
+    - With the post titles linked to the individual post "show" pages.
+3. Use the search bar to search through the posts' title and/or content.
+4. Click on the title of one of their posts and be redirected to a "show" page for that post.
+5. View post "show" pages with title, author, and content.
+
+Sprint 3: Validations
+A user should be able to:
+
+1. View city pages for "London" and "Gibraltar".
+2. A post's title must be between 1 and 200 characters.
+3. A post's content must not be empty.
+
+Sprint 4: Weather API
+1. Call Open Weather API for each city to display the current weather on each city's page.
+
+# Wireframes
+![image](https://github.com/pophero110/Wayfarer---Group-Project/assets/124539081/712dd0bd-7934-4ecb-9666-a089650b4281)
+
+# Group Collaboration
+1. How did your group approach the requirements? (mention anything unique or creative your group chose to do)
+    - My group stayed with the pair programming or all three of us were working together. Jeff showed us a lot of different ways how to code and customize or travel app. We used Figma which was excellent. We will defintely use this in the future. 
+2. What was easier than you thought? What was more challenging?
+   - Sprint 4 was a lot eaiser than expected. The more challeging area was customizing the app. Getting the app exactly how we wanted it. 
+3. What is a lesson you will carry forward to working on your next project?
+   - The lesson we will carry on to the next project is Pseudocode. Write down word for word what needs to be done. The Kanban board always is a great tool to keep the group on the same page. Communcation is key with working in a group project. 
+
 
 ## Development server
 
@@ -25,3 +77,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Credits 
+Thank you to the team for completing an amazing project. Thank you to our classmates for always sharing knowledge and making us laugh when we all are online at 10pm sometimes 11pm EST getting our work done. 

@@ -15,12 +15,13 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  transition: var(--transition);
 }
 
 html,
 body {
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   scroll-behavior: smooth;
   font-family: var(--primary-font-family);
   background-color: var(--primary-color);
@@ -33,4 +34,10 @@ h1 {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.defaultHover:hover {
+  background-color: var(--lighter-secondary-color);
+  cursor: pointer;
+  transform: scale(1.02);
 }
