@@ -45,6 +45,15 @@ Sprint 4: Weather API
 # Wireframes
 ![image](https://github.com/pophero110/Wayfarer---Group-Project/assets/124539081/712dd0bd-7934-4ecb-9666-a089650b4281)
 
+# Group Collaboration
+1. How did your group approach the requirements? (mention anything unique or creative your group chose to do)
+    - My group stayed with the pair programming or all three of us were working together. Jeff showed us a lot of different ways how to code and customize or travel app. We used Figma which was excellent. We will defintely use this in the future. 
+2. What was easier than you thought? What was more challenging?
+   - Sprint 4 was a lot eaiser than expected. The more challeging area was customizing the app. Getting the app exactly how we wanted it. 
+3. What is a lesson you will carry forward to working on your next project?
+  - The lesson we will carry on to the next project is Pseudocode. Write down word for word what needs to be done. The Kanban board always is a great tool to keep the group on the same page. Communcation is key with working in a group project. 
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
