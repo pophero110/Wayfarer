@@ -42,6 +42,10 @@ A user should be able to:
 Sprint 4: Weather API
 1. Call Open Weather API for each city to display the current weather on each city's page.
 
+# Wireframes
+![image](https://github.com/pophero110/Wayfarer---Group-Project/assets/124539081/712dd0bd-7934-4ecb-9666-a089650b4281)
+![image](https://github.com/pophero110/Wayfarer---Group-Project/assets/124539081/59b44ead-4b75-4de4-960b-221ca4f63a02)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
