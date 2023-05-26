@@ -5,13 +5,14 @@
   <div class="d-flex rounded flex-grow-2 mb-5">
     <div
       style="background-color: var(--primary-color)"
-      class="d-flex flex-column me-2 rounded p-5 text-nowrap justify-content-center text-white"
+      class="d-flex flex-column me-2 rounded pe-5 ps-5 text-nowrap justify-content-center text-white"
     >
       <h2 class="fs-1">{{ city?.name }}</h2>
       <h4 class="">{{ city?.country }}</h4>
+      <app-weather></app-weather>
     </div>
     <img
-      class="rounded shadow-lg defaultHover"
+      class="rounded defaultTransition shadow-lg defaultHover"
       width="100%"
       height="120px"
       src="{{ city?.iconUrl }}"
@@ -26,7 +27,7 @@
         *ngFor="let post of posts"
       >
         <img
-          class="rounded me-2 shadow defaultHover"
+          class="rounded defaultTransition me-2 shadow defaultHover"
           width="150px"
           height="60px"
           src="{{ post.thumbnailUrl }}"
