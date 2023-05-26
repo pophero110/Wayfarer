@@ -1,0 +1,54 @@
+
+
+  .container.overflow-hidden {
+    justify-content: center;
+  }
+  
+  .container.overflow-hidden .row {
+    line-height: 5rem;
+  }
+  
+
+  .card {
+    margin-top: 10rem;
+    width: 50rem;
+  }
+
+  .card-body .divider {
+    border-top: 2px solid #000000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+
+  .card.shadow.border-0 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row.gx-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .gradient-bg {
+    background: linear-gradient(to right, #d0cfcf, #ffffff);
+  }
+  
+  img{
+    width: 500px;
+    height: 400px;
+    margin: 80px 50px 0 0;
+  }
+
+  .post-title{
+    margin-top: 30px;
+  }
+  .post-author {
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 5rem;
+  }
