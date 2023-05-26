@@ -14,6 +14,7 @@ import { CityDetailComponent } from './city-detail/city-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 // import { SearchQueryDirective } from './search-query.directive';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,9 +31,10 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     PageNotFoundComponent,
     SearchBarComponent,
     
+    
     // SearchQueryDirective,
   ],
-  imports: [BrowserModule, RoutingModule],
+  imports: [BrowserModule, RoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

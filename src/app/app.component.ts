@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { City, cities} from './data/cities';
 import { Post, posts} from './data/posts';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
