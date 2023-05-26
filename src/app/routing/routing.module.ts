@@ -9,6 +9,8 @@ import { PostShowPageComponent } from '../post-show-page/post-show-page.componen
 // Documentation for using router
 const routes: Routes = [
   { path: 'cities/:id', component: CityPageComponent },
+  { path: 'city/london', component: CityPageComponent, data: { city: 'London' } },
+  { path: 'city/gibraltar', component: CityPageComponent, data: { city: 'Gibraltar' } },
   { path: 'posts/:id', component: PostShowPageComponent },
   { path: '404', component: PageNotFoundComponent },
   { path: '**', component: LandingPageComponent },
