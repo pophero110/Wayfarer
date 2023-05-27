@@ -12,9 +12,10 @@
     class="d-flex flex-column pe-2 ps-2 justify-content-between overflow-y-scroll"
   >
     <div
-      class="border border-white rounded mb-2 p-2 defaultHover"
       *ngFor="let city of cities"
       [ngClass]="{ highlight: cityId === city.id }"
+      (click)="selectCity(city.id)"
+      class="defaultTransition border border-white rounded mb-2 p-2 defaultHover"
     >
       <div class="d-flex align-items-center">
         <img
