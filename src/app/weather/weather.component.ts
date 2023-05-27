@@ -8,8 +8,11 @@ import { OnInit } from '@angular/core';
   styleUrls: ['./weather.component.css'],
 })
 export class WeatherComponent implements OnInit {
+  weather: any;
   constructor(private weatherService: WeatherService) {}
   ngOnInit(): void {
-    this.weatherService.findWeather('30034');
+    this.weatherService.findByCityName('London').subscribe((weatherData) => {
+      this.weather = weatherData;
+    });
   }
 }
