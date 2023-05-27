@@ -96,7 +96,6 @@ CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_propertie
 The 60-30-10 Rule: https://uxplanet.org/the-60-30-10-rule-a-foolproof-way-to-choose-colors-for-your-ui-design-d15625e56d25?gi=0790eb2ee2dd
 
 angular.ioangular.io
-
 Angular
 Angular is a platform for building mobile and desktop web applications.
 Join the community of millions of developers who build compelling user interfaces with Angular.
