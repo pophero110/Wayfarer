@@ -80,3 +80,37 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Credits 
 Thank you to the team for completing an amazing project. Thank you to our classmates for always sharing knowledge and making us laugh when we all are online at 10pm sometimes 11pm EST getting our work done. 
+
+# Resources
+RouterLink: https://angular.io/api/router/RouterLink
+Bootstrap: https://getbootstrap.com/docs/5.3/customize/sass/
+Unsplash: www.unsplash.com
+CSS First Letter Selector: https://www.w3schools.com/cssref/sel_firstletter.php#:~:text=The%20%3A%3Afirst%2Dletter%20selector,color%20properties
+CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+The 60-30-10 Rule: https://uxplanet.org/the-60-30-10-rule-a-foolproof-way-to-choose-colors-for-your-ui-design-d15625e56d25?gi=0790eb2ee2dd
+angular.ioangular.io
+Angular
+Angular is a platform for building mobile and desktop web applications.
+Join the community of millions of developers who build compelling user interfaces with Angular.
+getbootstrap.comgetbootstrap.com
+Sass
+Utilize our source Sass files to take advantage of variables, maps, mixins, and functions to help you build faster and customize your project. (725 kB)
+https://getbootstrap.com/docs/5.3/customize/sass/
+
+w3schools.comw3schools.com
+CSS ::first-letter Selector
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/cssref/sel_firstletter.php#:~:text=The%20%3A%3Afirst%2Dletter%20selector,color%20properties
+
+developer.mozilla.orgdeveloper.mozilla.org
+Using CSS custom properties (variables) - CSS: Cascading Style Sheets | MDN
+Custom properties (sometimes referred to as CSS variables or cascading variables) are entities defined by CSS authors that contain specific values to be reused throughout a document. They are set using custom property notation (e.g., --main-color: black;) and are accessed using the var() function (e.g., color: var(--main-color);).
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+
+MediumMedium
+The 60–30–10 Rule: A Foolproof Way to Choose Colors for Your UI Design
+Learn the Simple Formula for Creating a Balanced and Harmonious Color Scheme
+Reading time
+5 min read
+May 21st (28 kB)
+
