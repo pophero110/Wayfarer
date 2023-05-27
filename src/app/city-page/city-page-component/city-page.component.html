@@ -1,4 +1,12 @@
 <main class="d-flex pb-4" style="height: 90vh">
-  <app-city-list cityId="{{ cityId }}"></app-city-list>
-  <app-city-detail cityId="{{ cityId }}"></app-city-detail>
+  <app-city-list
+    (citySelected)="handleCitySelected($event)"
+    [cityId]="cityId"
+  ></app-city-list>
+  <app-city-detail
+    [weather]="weather"
+    [cityId]="cityId"
+    [city]="city"
+    [posts]="posts"
+  ></app-city-detail>
 </main>

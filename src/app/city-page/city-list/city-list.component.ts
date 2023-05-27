@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { City, cities } from '../../data/cities';
 @Component({
   selector: 'app-city-list',
@@ -6,6 +6,11 @@ import { City, cities } from '../../data/cities';
   styleUrls: ['./city-list.component.css'],
 })
 export class CityListComponent {
-  @Input() cityId?: string;
+  @Output() citySelected: EventEmitter<string> = new EventEmitter<string>();
+  @Input() cityId: any;
   cities: City[] = cities;
+
+  selectCity(cityId: string) {
+    this.citySelected.emit(cityId);
+  }
 }

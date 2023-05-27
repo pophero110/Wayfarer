@@ -15,7 +15,6 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  transition: var(--transition);
 }
 
 html,
@@ -36,8 +35,16 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 .defaultHover:hover {
   background-color: var(--lighter-secondary-color);
   cursor: pointer;
   transform: scale(1.02);
+}
+
+.defaultTransition {
+  transition: var(--transition);
 }
