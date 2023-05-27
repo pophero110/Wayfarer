@@ -49,7 +49,7 @@ Sprint 4: Weather API
 1. How did your group approach the requirements? (mention anything unique or creative your group chose to do)
     - My group stayed with the pair programming or all three of us were working together. Jeff showed us a lot of different ways how to code and customize or travel app. We used Figma which was excellent. We will defintely use this in the future. 
 2. What was easier than you thought? What was more challenging?
-   - All of our answers are different. For Jeff it was the logical part, search bar, and the navigation. Velvet, creating the paths to the pages. For example the routerlinks. For me it nothing was easy but I learned a lot.  The more challeging area was customizing the app. Getting the app exactly how we wanted it. Also, sprint 4. The weather api was harder than expected. 
+   - All of our answers are different. For Jeff it was the logical part, search bar, and the navigation. Velvet, creating the paths to the pages. For example the routerlinks. For me nothing was easy but I learned a lot.  The more challeging area was customizing the app. Getting the app exactly how we wanted it. Also, sprint 4. The weather api was harder than expected. 
 3. What is a lesson you will carry forward to working on your next project?
    - The lesson we will carry on to the next project is Pseudocode. Write down word for word what needs to be done. The Kanban board always is a great tool to keep the group on the same page. Communcation is key with working in a group project. 
 
