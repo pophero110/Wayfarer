@@ -11,7 +11,7 @@ export class WeatherService {
       switchMap((geoData) => {
         const { lat, lon } = geoData[0];
         return this.http.get(
-          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=6e8eb1701578fb67d5e378ed11490c82`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=6e8eb1701578fb67d5e378ed11490c82&units=imperial`
         );
       })
     );
