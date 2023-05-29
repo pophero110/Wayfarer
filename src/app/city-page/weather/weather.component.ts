@@ -16,7 +16,6 @@ export class WeatherComponent implements OnChanges {
       const weatherData = await this.weatherService
         .findByCityName(this.cityName)
         .toPromise();
-      console.log({ weatherData });
       this.weather = weatherData;
     } catch (error) {
       console.error('Error fetching weather data:', error);
