@@ -3,6 +3,7 @@
   box-shadow: none;
   color: white;
   padding: 0 2.4rem;
+  min-width: 45rem;
 }
 .card-title {
   font-size: 2vw;

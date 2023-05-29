@@ -33,7 +33,7 @@ export const cities = [
   },
   {
     id: '5',
-    name: 'Seattle',
+    name: 'Gibraltar',
     iconUrl: '../../assets/images/4.jpeg',
     country: 'United States of America',
   },
