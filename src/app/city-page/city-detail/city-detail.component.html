@@ -14,7 +14,7 @@
     <img
       class="rounded defaultTransition shadow-lg defaultHover"
       width="100%"
-      height="120px"
+      height="200px"
       src="{{ city.iconUrl }}"
       alt="city image"
     />
@@ -37,7 +37,15 @@
           <a class="link-primary mb-2 fs-3" routerLink="/posts/{{ post.id }}">{{
             post.title
           }}</a>
-          <p class="m-0">{{ post.content }}</p>
+          <p class="fs-4">
+            {{ post.content.slice(0, postContentLimit) }}
+            <a
+              class="d-inline text-info"
+              *ngIf="post.content.length > postContentLimit"
+              [routerLink]="'/posts/' + post.id"
+              >...[read more]</a
+            >
+          </p>
         </div>
       </div>
     </div>

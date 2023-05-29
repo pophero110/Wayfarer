@@ -5,6 +5,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./city-detail.component.css'],
 })
 export class CityDetailComponent {
+  postContentLimit: number = 70;
   @Input() city: any;
   @Input() posts: any;
   @Input() cityId: any;
