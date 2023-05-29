@@ -12,8 +12,6 @@ export class CityPageComponent {
     this.cityId = cityId;
     this.city = this.cityService.findCityById(this.cityId);
     this.posts = this.cityService.findPostsByCityId(this.cityId);
-    this.city = { ...this.city };
-    this.posts = [...this.posts];
   }
   cityId!: string;
   city: any;
