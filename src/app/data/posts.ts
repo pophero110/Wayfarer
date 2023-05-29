@@ -91,6 +91,26 @@ const gibraltarPosts = [
     thumbnailUrl: '../../assets/images/gibraltar.webp',
     author: 'Emily Davis',
   },
+  /* post with title over 200 characters */
+  {
+    id: '9',
+    cityId: '5',
+    title:
+      'A Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through London',
+    content:
+      'London is a culinary paradise offering a delightful array of flavors and cuisines. From traditional British dishes to international fusion creations, the city caters to every palate. Explore charming local markets, indulge in afternoon tea, and dine at world-class restaurants showcasing the best of British and global gastronomy. Embark on a mouthwatering journey through London and experience the vibrant culinary scene that will leave you craving for more.',
+    thumbnailUrl: '../../assets/images/london-2.png',
+    author: 'John Doe',
+  },
+  /* post with empty content*/
+  {
+    id: '10',
+    cityId: '5',
+    title: 'A Culinary Journey through LondonA',
+    content: '',
+    thumbnailUrl: '../../assets/images/london-2.png',
+    author: 'John Doe',
+  },
 ];
 
 export const posts: Post[] = [
