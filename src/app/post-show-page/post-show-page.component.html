@@ -1,11 +1,13 @@
-<main class="container">
+<main class="d-flex rounded pb-5 bg-white" style="height: fit-content">
   <img
-    width="200px"
-    height="100px"
+    style="max-width: 50%; max-height: 50%"
     src="{{ post.thumbnailUrl }}"
     alt="post image"
+    class="float-start rounded defaultHover defaultTransition ms-5 mt-5"
   />
-  <h2>{{ post.title }}</h2>
-  <h3>{{ post.author }}</h3>
-  <p>{{ post.content }}</p>
+  <div class="d-flex flex-column p-5">
+    <h1 class="fs-1 mb-2">{{ post.title }}</h1>
+    <h2 class="text-body-tertiary">by {{ post.author }}</h2>
+    <p class="fs-1 text-secondary">{{ post.content }}</p>
+  </div>
 </main>
