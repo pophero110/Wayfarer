@@ -19,13 +19,40 @@ export class CityService {
   }
 
   /**
-   * Finds posts associated with a specific city ID.
+   * Checks if the content of a post is valid.
+   *
+   * @param {Post} post - The post object to validate.
+   * @returns {boolean} - True if the content is valid, false otherwise.
+   */
+  private isContentValid(post: Post): boolean {
+    return !!post.content && post.content.length > 0;
+  }
+
+  /**
+   * Checks if the title of a post is valid.
+   *
+   * @param {Post} post - The post object to validate.
+   * @returns {boolean} - True if the title is valid, false otherwise.
+   */
+  private isTitleValid(post: Post): boolean {
+    const minLength = 2;
+    const maxLength = 200;
+    return post.title.length > minLength && post.title.length < maxLength;
+  }
+
+  /**
+   * Finds posts associated with a specific city ID, considering additional validation criteria.
    *
    * @param {string} cityId - The ID of the city to find posts for.
-   * @returns {Post[]} - An array of posts associated with the city ID.
+   * @returns {Post[]} - An array of valid posts associated with the city ID.
    */
   findPostsByCityId(cityId: string): Post[] {
-    return posts.filter((post) => post.cityId === cityId);
+    return posts.filter((post) => {
+      const isCityMatch = post.cityId === cityId;
+      const isContentValid = this.isContentValid(post);
+      const isTitleValid = this.isTitleValid(post);
+      return isCityMatch && isContentValid && isTitleValid;
+    });
   }
 
   /**
