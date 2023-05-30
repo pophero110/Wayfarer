@@ -1,6 +1,6 @@
 # Wayfarer
 
-Wayfarer is a travel community for users to share city-specific tips ("posts" or "logs") about their favorite locations around the world.
+Wayfarer is a travel community for users to share city-specific tips ("posts" or "logs") about their favorite locations around the world. The primary objective of this project is twofold: to cultivate valuable experience collaborating on a development project as a cohesive team and to effectively meet the client's expectations. Also, another key focus of this project is to enhance our proficiency with the Angular framework, specifically in building single-page client applications.
 
 # Technologies used
 
@@ -52,7 +52,16 @@ Sprint 4: Weather API
 
 Throughout the duration of this project, our team effectively leveraged the Kanban Board within Git Projects to outline and manage our project tasks. This approach proved highly beneficial as we documented each Sprint as an issue on the Kanban board, accompanied by the respective user stories we aimed to address. Notably, the initial and imperative step in our workflow was the brainstorming process. This critical phase enabled us to collaboratively gather and synthesize our ideas, ensuring a well-informed and strategic approach to each sprint.
 
-Additionally, rather than approaching each user story as a single entity, we discovered the value of breaking down each user story into smaller, more manageable steps. This approach not only enhanced clarity but also facilitated our understanding of how to effectively develop the corresponding code. By deconstructing the user stories, we were able to analyze and determine the optimal approach for implementation.
+Additionally, during our brainstorming session, we discussed several key questions that helped shape our project direction:
+1. What are the specific client requirements and expectations for the final deliverable?
+2. What will the UI flow be (colors, layout, etc.)?
+3. How can we effectively prioritize and sequence the user stories to ensure a smooth development process?
+4. Are there any technical constraints or limitations that we need to consider while working with the Angular framework?
+5. How can we leverage Angular's features and functionalities to enhance the user experience?
+6. How can we ensure seamless collaboration and communication within the team throughout the project duration?
+7. What milestones and bonus features (if we get to that point) should we work on?
+
+Furthermore, rather than approaching each user story as a single entity, we discovered the value of breaking down each user story into smaller, more manageable steps. This approach not only enhanced clarity but also facilitated our understanding of how to effectively develop the corresponding code. By deconstructing the user stories, we were able to analyze and determine the optimal approach for implementation.
 
 Link to Kanan Board: https://github.com/users/pophero110/projects/10/views/1
 
