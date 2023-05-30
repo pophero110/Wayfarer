@@ -13,36 +13,41 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # User Stories
 
-Sprint 1: Landing Page
-A user should be able to:
+Spring 1:
+Name: Landing Page
+User Story:
 
-1. Navigate to "/" and see a basic splash page with the name of the website.
-2. See the site-wide header on every page with a link to home page with list of cities.
+- As a user, I want to be able to navigate to the "/" route and see a basic splash page with the name of the website.
+- As a user, I want to see the site-wide header on every page with a link to the home page that lists the cities.
 
-Sprint 2: HomePage
-A user should be able to:
+Spring 2:
+Name: Home Page
+User Story:
 
-1. View the "San Francisco" page (at "/cities/1") including:
-   - The site-wide header.
-   - The name of the city.
-   - An iconic photo of the city.
-2. View a list of posts on the San Francisco page:
-   - Sorted by newest first.
-   - With the post titles linked to the individual post "show" pages.
-3. Use the search bar to search through the posts' title and/or content.
-4. Click on the title of one of their posts and be redirected to a "show" page for that post.
-5. View post "show" pages with title, author, and content.
+- As a user, I want to be able to view the "San Francisco" page (at "/cities/1") with the following details:
+  - The site-wide header.
+  - The name of the city.
+  - An iconic photo of the city.
+- As a user, I want to see a list of posts on the San Francisco page:
+  - Sorted by newest first.
+  - With the post titles linked to the individual post "show" pages.
+- As a user, I want to use the search bar to search through the posts' title and/or content.
+- As a user, I want to click on the title of one of my posts and be redirected to a "show" page for that post.
+- As a user, I want to view post "show" pages with the title, author, and content displayed.
 
-Sprint 3: Validations
-A user should be able to:
+Spring 3:
+Name: Validations
+User Story:
 
-1. View city pages for "London" and "Gibraltar".
-2. A post's title must be between 1 and 200 characters.
-3. A post's content must not be empty.
+- As a user, I want to be able to view city pages for "London" and "Gibraltar".
+- As a user, I want the title of a post to be between 1 and 200 characters.
+- As a user, I want the content of a post to not be empty.
 
-Sprint 4: Weather API
+Spring 4:
+Name: Weather API
+User Story:
 
-1. Call Open Weather API for each city to display the current weather on each city's page.
+- As a user, I want to see the current weather of the city on each city's page.
 
 # Wireframes
 
