@@ -30,7 +30,6 @@ User Story:
   - Sorted by newest first.
   - With the post titles linked to the individual post "show" pages.
 - As a user, I want to use the search bar to search through the posts' titles and/or content.
-- As a user, I want to click on the title of one of my posts and be redirected to a "show" page for that post.
 - As a user, I want to view post "show" pages with the title, author, and content displayed.
 
 Spring 3: Validations
