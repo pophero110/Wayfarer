@@ -6,6 +6,7 @@ export interface Post {
   content: string;
   thumbnailUrl: string;
   author: string;
+  createdAt: Date;
 }
 const londonPosts = [
   {
@@ -16,6 +17,7 @@ const londonPosts = [
       'Discover hidden gems and immerse yourself in the vibrant atmosphere of London.',
     thumbnailUrl: '../../assets/images/london-2.png',
     author: 'John Doe',
+    createdAt: new Date('2023-05-25'),
   },
   {
     id: '2',
@@ -25,6 +27,7 @@ const londonPosts = [
       'London is a culinary paradise offering a delightful array of flavors and cuisines. From traditional British dishes to international fusion creations, the city caters to every palate. Explore charming local markets, indulge in afternoon tea, and dine at world-class restaurants showcasing the best of British and global gastronomy. Embark on a mouthwatering journey through London and experience the vibrant culinary scene that will leave you craving for more.',
     thumbnailUrl: '../../assets/images/london-2.png',
     author: 'John Doe',
+    createdAt: new Date('2023-05-26'),
   },
   {
     id: '3',
@@ -33,6 +36,7 @@ const londonPosts = [
     content: 'Explore iconic landmarks and delve into the history of London.',
     thumbnailUrl: '../../assets/images/london.png',
     author: 'John Doe',
+    createdAt: new Date('2023-05-27'),
   },
   {
     id: '4',
@@ -42,6 +46,7 @@ const londonPosts = [
       'Experience the lively markets of London and indulge in a shopping extravaganza.',
     thumbnailUrl: '../../assets/images/london.png',
     author: 'John Doe',
+    createdAt: new Date('2023-05-28'),
   },
 ];
 
@@ -54,6 +59,7 @@ const sydneyPosts = [
       'Admire the stunning Sydney Opera House and soak up the beauty of the city.',
     thumbnailUrl: '../../assets/images/sydney-2.png',
     author: 'Jane Smith',
+    createdAt: new Date('2023-05-28'),
   },
 ];
 
@@ -66,6 +72,7 @@ const sanFranciscoPosts = [
       'Discover the unique neighborhoods and iconic landmarks of San Francisco.',
     thumbnailUrl: '../../assets/images/san-francisco-2.png',
     author: 'Mike Johnson',
+    createdAt: new Date('2023-05-28'),
   },
 ];
 
@@ -78,6 +85,7 @@ const seattlePosts = [
       'Immerse yourself in the vibrant music and coffee scene of Seattle.',
     thumbnailUrl: '../../assets/images/seattle-2.png',
     author: 'Emily Davis',
+    createdAt: new Date('2023-05-28'),
   },
 ];
 
@@ -90,6 +98,7 @@ const gibraltarPosts = [
       'Experience the unique cultural blend of British and Mediterranean influences in Gibraltar.',
     thumbnailUrl: '../../assets/images/gibraltar.webp',
     author: 'Emily Davis',
+    createdAt: new Date('2023-05-28'),
   },
   /* post with title over 200 characters */
   {
@@ -101,15 +110,27 @@ const gibraltarPosts = [
       'London is a culinary paradise offering a delightful array of flavors and cuisines. From traditional British dishes to international fusion creations, the city caters to every palate. Explore charming local markets, indulge in afternoon tea, and dine at world-class restaurants showcasing the best of British and global gastronomy. Embark on a mouthwatering journey through London and experience the vibrant culinary scene that will leave you craving for more.',
     thumbnailUrl: '../../assets/images/london-2.png',
     author: 'John Doe',
+    createdAt: new Date('2023-05-29'),
   },
   /* post with empty content*/
   {
     id: '10',
     cityId: '5',
-    title: 'A Culinary Journey through LondonA',
+    title: 'A Culinary Journey through London',
     content: '',
     thumbnailUrl: '../../assets/images/london-2.png',
     author: 'John Doe',
+    createdAt: new Date('2023-05-28'),
+  },
+  {
+    id: '11',
+    cityId: '5',
+    title: 'A Culinary Journey through London',
+    content:
+      'London is a culinary paradise offering a delightful array of flavors and cuisines. From traditional British dishes to international fusion creations, the city caters to every palate. Explore charming local markets, indulge in afternoon tea, and dine at world-class restaurants showcasing the best of British and global gastronomy. Embark on a mouthwatering journey through London and experience the vibrant culinary scene that will leave you craving for more.',
+    thumbnailUrl: '../../assets/images/london-2.png',
+    author: 'John Doe',
+    createdAt: new Date('2023-05-29'),
   },
 ];
 

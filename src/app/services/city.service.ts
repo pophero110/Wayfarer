@@ -47,12 +47,14 @@ export class CityService {
    * @returns {Post[]} - An array of valid posts associated with the city ID.
    */
   findPostsByCityId(cityId: string): Post[] {
-    return posts.filter((post) => {
-      const isCityMatch = post.cityId === cityId;
-      const isContentValid = this.isContentValid(post);
-      const isTitleValid = this.isTitleValid(post);
-      return isCityMatch && isContentValid && isTitleValid;
-    });
+    return posts
+      .filter((post) => {
+        const isCityMatch = post.cityId === cityId;
+        const isContentValid = this.isContentValid(post);
+        const isTitleValid = this.isTitleValid(post);
+        return isCityMatch && isContentValid && isTitleValid;
+      })
+      .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
   }
 
   /**

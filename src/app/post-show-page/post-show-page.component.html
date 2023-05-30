@@ -8,6 +8,9 @@
   <div class="d-flex flex-column p-5">
     <h1 class="fs-1 mb-2">{{ post.title }}</h1>
     <h2 class="text-body-tertiary">by {{ post.author }}</h2>
+    <span class="fs-5 text-secondary">{{
+      post.createdAt | date : "yyyy-MM-dd"
+    }}</span>
     <p class="fs-1 text-secondary">{{ post.content }}</p>
   </div>
 </main>

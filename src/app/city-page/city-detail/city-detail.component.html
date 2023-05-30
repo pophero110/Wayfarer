@@ -29,14 +29,18 @@
         <img
           class="rounded defaultTransition me-2 shadow defaultHover"
           width="150px"
-          height="60px"
+          height="80px"
           src="{{ post.thumbnailUrl }}"
           alt="#"
         />
         <div class="d-flex pt-2 flex-column justify-content-start">
-          <a class="link-primary mb-2 fs-3" routerLink="/posts/{{ post.id }}">{{
+          <a class="link-primary fs-3" routerLink="/posts/{{ post.id }}">{{
             post.title
           }}</a>
+          <p class="fs-5 text-secondary mb-2">
+            {{ post.createdAt | date : "yyyy-MM-dd" }}
+          </p>
+
           <p class="fs-4">
             {{ post.content.slice(0, postContentLimit) }}
             <a
