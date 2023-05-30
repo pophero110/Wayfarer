@@ -48,6 +48,12 @@ Sprint 4: Weather API
 
 ![image](https://github.com/pophero110/Wayfarer---Group-Project/assets/124539081/712dd0bd-7934-4ecb-9666-a089650b4281)
 
+# Application Screenshots
+
+![landing-page](./src/assets/resource/landing-page.png)
+![city-page](./src/assets/resource/city-page.png)
+![post-page](./src/assets/resource/post-page.png)
+
 # Group Collaboration
 
 1. How did your group approach the requirements? (mention anything unique or creative your group chose to do)
