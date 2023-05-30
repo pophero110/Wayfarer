@@ -14,7 +14,7 @@ const londonPosts = [
     title: 'Exploring the Vibrant Streets of London',
     content:
       'Discover hidden gems and immerse yourself in the vibrant atmosphere of London.',
-    thumbnailUrl: '../../assets/images/london-2.png',
+    thumbnailUrl: '/assets/images/london-2.png',
     author: 'John Doe',
   },
   {
@@ -23,7 +23,7 @@ const londonPosts = [
     title: 'A Culinary Journey through London',
     content:
       'London is a culinary paradise offering a delightful array of flavors and cuisines. From traditional British dishes to international fusion creations, the city caters to every palate. Explore charming local markets, indulge in afternoon tea, and dine at world-class restaurants showcasing the best of British and global gastronomy. Embark on a mouthwatering journey through London and experience the vibrant culinary scene that will leave you craving for more.',
-    thumbnailUrl: '../../assets/images/london-2.png',
+    thumbnailUrl: '/assets/images/london-2.png',
     author: 'John Doe',
   },
   {
@@ -31,7 +31,7 @@ const londonPosts = [
     cityId: '1',
     title: 'Uncovering the Rich History of London',
     content: 'Explore iconic landmarks and delve into the history of London.',
-    thumbnailUrl: '../../assets/images/london.png',
+    thumbnailUrl: '/assets/images/london.png',
     author: 'John Doe',
   },
   {
@@ -40,7 +40,7 @@ const londonPosts = [
     title: 'Shopping Spree in London',
     content:
       'Experience the lively markets of London and indulge in a shopping extravaganza.',
-    thumbnailUrl: '../../assets/images/london.png',
+    thumbnailUrl: '/assets/images/london.png',
     author: 'John Doe',
   },
 ];
@@ -52,7 +52,7 @@ const sydneyPosts = [
     title: 'Breathtaking Views of Sydney',
     content:
       'Admire the stunning Sydney Opera House and soak up the beauty of the city.',
-    thumbnailUrl: '../../assets/images/sydney-2.png',
+    thumbnailUrl: '/assets/images/sydney-2.png',
     author: 'Jane Smith',
   },
 ];
@@ -64,7 +64,7 @@ const sanFranciscoPosts = [
     title: 'Eclectic Charm of San Francisco',
     content:
       'Discover the unique neighborhoods and iconic landmarks of San Francisco.',
-    thumbnailUrl: '../../assets/images/san-francisco-2.png',
+    thumbnailUrl: '/assets/images/san-francisco-2.png',
     author: 'Mike Johnson',
   },
 ];
@@ -76,7 +76,7 @@ const seattlePosts = [
     title: 'Vibrant Music and Coffee Culture in Seattle',
     content:
       'Immerse yourself in the vibrant music and coffee scene of Seattle.',
-    thumbnailUrl: '../../assets/images/seattle-2.png',
+    thumbnailUrl: '/assets/images/seattle-2.png',
     author: 'Emily Davis',
   },
 ];
@@ -88,7 +88,7 @@ const gibraltarPosts = [
     title: 'Blend of British and Mediterranean Influences in Gibraltar',
     content:
       'Experience the unique cultural blend of British and Mediterranean influences in Gibraltar.',
-    thumbnailUrl: '../../assets/images/gibraltar.webp',
+    thumbnailUrl: '/assets/images/gibraltar.webp',
     author: 'Emily Davis',
   },
   /* post with title over 200 characters */
@@ -99,7 +99,7 @@ const gibraltarPosts = [
       'A Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through LondonA Culinary Journey through London',
     content:
       'London is a culinary paradise offering a delightful array of flavors and cuisines. From traditional British dishes to international fusion creations, the city caters to every palate. Explore charming local markets, indulge in afternoon tea, and dine at world-class restaurants showcasing the best of British and global gastronomy. Embark on a mouthwatering journey through London and experience the vibrant culinary scene that will leave you craving for more.',
-    thumbnailUrl: '../../assets/images/london-2.png',
+    thumbnailUrl: '/assets/images/london-2.png',
     author: 'John Doe',
   },
   /* post with empty content*/
@@ -108,7 +108,7 @@ const gibraltarPosts = [
     cityId: '5',
     title: 'A Culinary Journey through LondonA',
     content: '',
-    thumbnailUrl: '../../assets/images/london-2.png',
+    thumbnailUrl: '/assets/images/london-2.png',
     author: 'John Doe',
   },
 ];
