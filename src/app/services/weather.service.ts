@@ -19,7 +19,7 @@ export class WeatherService {
 
   private convertCityNameIntoGeo(cityName: string): Observable<any> {
     return this.http.get(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=6e8eb1701578fb67d5e378ed11490c82`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=6e8eb1701578fb67d5e378ed11490c82`
     );
   }
 
