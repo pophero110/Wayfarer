@@ -48,6 +48,14 @@ Sprint 4: Weather API
 
 ![image](https://github.com/pophero110/Wayfarer---Group-Project/assets/124539081/712dd0bd-7934-4ecb-9666-a089650b4281)
 
+# The Planning Process
+
+Throughout the duration of this project, our team effectively leveraged the Kanban Board within Git Projects to outline and manage our project tasks. This approach proved highly beneficial as we documented each Sprint as an issue on the Kanban board, accompanied by the respective user stories we aimed to address. Notably, the initial and imperative step in our workflow was the brainstorming process. This critical phase enabled us to collaboratively gather and synthesize our ideas, ensuring a well-informed and strategic approach to each sprint.
+
+Additionally, rather than approaching each user story as a single entity, we discovered the value of breaking down each user story into smaller, more manageable steps. This approach not only enhanced clarity but also facilitated our understanding of how to effectively develop the corresponding code. By deconstructing the user stories, we were able to analyze and determine the optimal approach for implementation.
+
+Link to Kanan Board: https://github.com/users/pophero110/projects/10/views/1
+
 # Application Screenshots
 
 ![landing-page](./src/assets/resource/landing-page.png)
