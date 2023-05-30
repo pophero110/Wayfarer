@@ -63,6 +63,24 @@ Sprint 4: Weather API
 3. What is a lesson you will carry forward to working on your next project?
    - The lesson we will carry on to the next project is Pseudocode. Write down word for word what needs to be done. The Kanban board always is a great tool to keep the group on the same page. Communcation is key with working in a group project.
 
+# Credits
+
+Thank you to the team for completing an amazing project. Thank you to our classmates for always sharing your knowledge and making us laugh when we all are online during the late nights getting our work done.
+
+# Resources Used
+
+- RouterLink: https://angular.io/api/router/RouterLink
+
+- Bootstrap: https://getbootstrap.com/docs/5.3/customize/sass/
+
+- Unsplash: www.unsplash.com
+
+- [CSS ::first-letter Selector](https://www.w3schools.com/cssref/sel_firstletter.php#:~:text=The%20%3A%3Afirst%2Dletter%20selector,color%20properties)
+
+- [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+
+- Medium: The 60–30–10 Rule: A Foolproof Way to Choose Colors for Your UI Design
+
 ## How to run the application
 
 <details>
@@ -88,20 +106,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-# Credits
-
-Thank you to the team for completing an amazing project. Thank you to our classmates for always sharing knowledge and making us laugh when we all are online at 10pm sometimes 11pm EST getting our work done.
-
-# Resources
-
-- RouterLink: https://angular.io/api/router/RouterLink
-
-- Bootstrap: https://getbootstrap.com/docs/5.3/customize/sass/
-
-- Unsplash: www.unsplash.com
-
-- [CSS ::first-letter Selector](https://www.w3schools.com/cssref/sel_firstletter.php#:~:text=The%20%3A%3Afirst%2Dletter%20selector,color%20properties)
-
-- [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-
-- Medium: The 60–30–10 Rule: A Foolproof Way to Choose Colors for Your UI Design
